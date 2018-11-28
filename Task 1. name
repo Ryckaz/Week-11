@@ -1,0 +1,10 @@
+class Person():
+    def __init__(self, firstName) :
+        self._name = firstName
+
+    def name(self):
+        print("Name: ",self._name)
+
+harry = Person("Harry")
+
+harry.name()
